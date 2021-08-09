@@ -11,6 +11,7 @@ public class Bj11651 {
 		int[][] numbers = new int[a][2]; // 좌표를 담을 배열
 		for(int i=0; i<a; i++) {
 			String s = scanner.nextLine(); // 한줄 읽음
+		
 			String[] number = s.split(" ");
 			numbers[i][0] = Integer.parseInt(number[0]);
 			numbers[i][1] = Integer.parseInt(number[1]);
@@ -29,5 +30,6 @@ public class Bj11651 {
 		for(int i=0; i<numbers.length; i++) {
 			System.out.println(numbers[i][0]+" "+numbers[i][1]);
 		}
+		
 	}
 }
