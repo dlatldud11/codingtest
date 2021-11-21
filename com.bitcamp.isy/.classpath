@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/ISY/WebContent/WEB-INF/lib/json_simple-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mintpot/json_simple-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
