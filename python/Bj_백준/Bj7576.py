@@ -17,7 +17,7 @@ def bfs():
 
 
 m, n = map(int, input().split()) #가로칸, 세로칸
-arr = [list(map(int, input().split())) for _ in range(n)] #배추의 위치
+arr = [list(map(int, input().split())) for _ in range(n)] #토마토의 위치
 
 wx = [0, 0, -1, 1] #상하좌우
 wy = [-1, 1, 0, 0] #상하좌우
