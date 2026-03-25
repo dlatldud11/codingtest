@@ -5,8 +5,6 @@
 
 # 풀이 확인함. 모든 경우의 수를 방문하는 경우로 진행이 필요해보임
 # 백준으로 맞춘 다음에 코드 gpt한테 검사받고 다시 더 효율 좋은코드로 만듬
-from copy import deepcopy
-
 def dfs(index, rst):
     global max_rst, min_rst
     # print(f'dfs {index} {rst}')
@@ -42,13 +40,6 @@ arr = list(map(int, input().split()))
 signs = list(map(int, input().split()))
 max_rst = -1000000000 #최대값
 min_rst = 1000000000 #최소값
-
-# for i in range(4):
-#     rst = arr[0]
-#     if signs[i] > 0:
-#         signs[i] -= 1
-#         dfs(1, rst)
-#         signs[i] += 1
 
 dfs(1, arr[0])
 
